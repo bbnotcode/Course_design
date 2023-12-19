@@ -14,10 +14,10 @@ public class Login {
     private JTextField password_Filed;
     private JLabel welcome_titile;
     private JFrame frame;
-    private static final String ACCOUNT_FILE = "./src/Chat/account.txt";
+    private static final String ACCOUNT_FILE = "Course_design/src/Chat/account.txt";
     private static final Map<String, String> accounts = new HashMap<>();
     private String IP = "127.0.0.1";
-    private int port = 5000;
+    private int port = 8080;
 
 
 

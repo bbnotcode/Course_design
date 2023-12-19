@@ -22,7 +22,7 @@ import java.lang.Object;
 
 public class Client {
     private String IP = "127.0.0.1";
-    private int port = 5000;
+    private int port = 8080;
     public Socket socket = null;
     public DataOutputStream output = null;
     public DataInputStream input = null;

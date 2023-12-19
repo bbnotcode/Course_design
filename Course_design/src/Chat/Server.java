@@ -9,7 +9,7 @@ import java.util.*;
 import java.time.LocalDateTime;
 
 public class Server {
-    private int port = 5000;
+    private int port = 8080;
     private ServerSocket serverSocket = null;
 
     private Map<String, DataOutputStream> clients = new HashMap<>();
